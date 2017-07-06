@@ -16,10 +16,4 @@ Configure a Jenkins Pipeline Linux Academy
  }
  }
  }
- post {
- success {
- archiveArtifacts artifacts: 'rectangle.jar', fingerprint:
-true
- }
- }
 }
